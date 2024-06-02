@@ -84,43 +84,56 @@
         function pop_OptiCommLtdCombinedServiceAreas_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['project_area'] !== null ? autolinker.link(feature.properties['project_area'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">project_area</th>\
+                        <td>' + (feature.properties['project_area'] !== null ? autolinker.link(feature.properties['project_area'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['service_area'] !== null ? autolinker.link(feature.properties['service_area'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">service_area</th>\
+                        <td>' + (feature.properties['service_area'] !== null ? autolinker.link(feature.properties['service_area'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['service_area_identifier'] !== null ? autolinker.link(feature.properties['service_area_identifier'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">service_area_identifier</th>\
+                        <td>' + (feature.properties['service_area_identifier'] !== null ? autolinker.link(feature.properties['service_area_identifier'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['contract'] !== null ? autolinker.link(feature.properties['contract'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">contract</th>\
+                        <td>' + (feature.properties['contract'] !== null ? autolinker.link(feature.properties['contract'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['name_of_sip'] !== null ? autolinker.link(feature.properties['name_of_sip'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">name_of_sip</th>\
+                        <td>' + (feature.properties['name_of_sip'] !== null ? autolinker.link(feature.properties['name_of_sip'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['network_infrastructure'] !== null ? autolinker.link(feature.properties['network_infrastructure'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">network_infrastructure</th>\
+                        <td>' + (feature.properties['network_infrastructure'] !== null ? autolinker.link(feature.properties['network_infrastructure'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['estimated_completion_date'] !== null ? autolinker.link(feature.properties['estimated_completion_date'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">estimated_completion_date</th>\
+                        <td>' + (feature.properties['estimated_completion_date'] !== null ? autolinker.link(feature.properties['estimated_completion_date'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['suburb'] !== null ? autolinker.link(feature.properties['suburb'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">suburb</th>\
+                        <td>' + (feature.properties['suburb'] !== null ? autolinker.link(feature.properties['suburb'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['state'] !== null ? autolinker.link(feature.properties['state'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">state</th>\
+                        <td>' + (feature.properties['state'] !== null ? autolinker.link(feature.properties['state'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">id</th>\
+                        <td>' + (feature.properties['id'] !== null ? autolinker.link(feature.properties['id'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['formatted_address'] !== null ? autolinker.link(feature.properties['formatted_address'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">formatted_address</th>\
+                        <td class="visible-with-data" id="formatted_address">' + (feature.properties['formatted_address'] !== null ? autolinker.link(feature.properties['formatted_address'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['latlong'] !== null ? autolinker.link(feature.properties['latlong'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">latlong</th>\
+                        <td>' + (feature.properties['latlong'] !== null ? autolinker.link(feature.properties['latlong'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['_id_'] !== null ? autolinker.link(feature.properties['_id_'].toLocaleString()) : '') + '</td>\
+                        <th scope="row">_id_</th>\
+                        <td>' + (feature.properties['_id_'] !== null ? autolinker.link(feature.properties['_id_'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -142,7 +155,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(9,246,226,0.5176470588235295)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_OptiCommLtdCombinedServiceAreas_1');
@@ -150,7 +163,7 @@
         map.getPane('pane_OptiCommLtdCombinedServiceAreas_1').style['mix-blend-mode'] = 'normal';
         var layer_OptiCommLtdCombinedServiceAreas_1 = new L.geoJson(json_OptiCommLtdCombinedServiceAreas_1, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_OptiCommLtdCombinedServiceAreas_1',
             layerName: 'layer_OptiCommLtdCombinedServiceAreas_1',
             pane: 'pane_OptiCommLtdCombinedServiceAreas_1',
