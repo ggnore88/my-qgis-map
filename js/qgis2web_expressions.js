@@ -757,14 +757,430 @@ function fnc_project_color(values, context) {
 
 
 
-function exp_label_OptiCommLtdCombinedServiceAreas_1_eval_expression(context) {
-    // project_area || '\n' || service_area_identifier
+function exp_label_AdvatelWirelessPtyLtdcombinedserviceareas_1_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
 
     var feature = context.feature;
     
     if (feature.properties) {
-        return ((feature.properties['project_area']  + '\n') + feature.properties['service_area_identifier'] );
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
     } else {
-        return ((feature['project_area']  + '\n') + feature['service_area_identifier'] );
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_AppliedITSystemsPtyLtdCombinedserviceareas_2_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_ASNTelecomPtyLtdCombinedServiceAreas_3_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_AustralianCommunicationsGroupPtyLtdCombinedserviceareas_4_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_CipherTelPtyLtdcombinedserviceareas_5_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_CNTCorpPtyLtdCombinedServiceAreas_6_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_CommscoPtyLtdCombinedServiceAreas_7_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_CommSolHoldingsPtyLtdcombinedserviceareas_8_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_CoreFibreNetworksPtyLtdCombinedserviceareas_9_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_DGTekPtyLtdCombinedserviceareas_10_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_FiberAssetManagementPtyLtdcombinedserviceareas_11_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_FibossPtyLtdCombinedserviceareas_12_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_FrontierNetworksPtyLtdCombinedareas_13_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_GtelecomPtyLtdCombinedServiceAreas_14_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_InterphonePtyLtdCombinedServiceAreas_15_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_LegionTelecomPtyLtdCombinedServiceAreas_16_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_MyportPtyLtdCombinedserviceareas_17_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_NetbayFreeWiFiPtyLtdCombinedserviceareas_18_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_OMNIconnectPtyLtdcombinedserviceareas_19_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_PipeNetworksPtyLtdCombinedserviceareas_20_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_RealWorldNetworksPtyLtdCombinedserviceareas_21_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_ReddenetPtyLtdCombinedserviceareas_22_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_SensiaPtyLtdCombinedServiceAreas_23_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_TaipanNetworxPtyLtdcombinedareas_24_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_TransactCapitalCommunicationsPtyLtdCombinedserviceareas_25_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_VineNetworksPtyLtdCombinedserviceareas_26_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_VocusFibrePtyLtdCombinedareas_27_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_VostroNetAustraliaPtyLtdCombinedserviceareas_28_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_LBNCoPtyLtdCombinedServiceAreas_29_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_OPENetworksPtyLtdcombinedserviceareas_30_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_TelstraLimitedCombinedserviceareas_31_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_OptiCommLtdCombinedServiceAreas_32_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
+    }
+}
+
+
+function exp_label_LynhamNetworksPtyLtdcombinedserviceareas_33_eval_expression(context) {
+    // project_area || '\n' || name_of_sip
+
+    var feature = context.feature;
+    
+    if (feature.properties) {
+        return ((feature.properties['project_area']  + '\n') + feature.properties['name_of_sip'] );
+    } else {
+        return ((feature['project_area']  + '\n') + feature['name_of_sip'] );
     }
 }
